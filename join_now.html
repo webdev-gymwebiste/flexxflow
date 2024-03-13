@@ -1,0 +1,54 @@
+<html>
+<link rel="stylesheet" href="join_now.css">
+<head></head>
+    <body>
+        <form>
+        <fieldset>
+        <legend><h1>REGISTER NOW!</h1></legend>
+        <center>
+        <p>
+        <label for="name"><strong>Enter Your Name:</strong></label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="mobile"><strong>Mobile Number:</strong></label><br>
+        <input type="text" id="mobile" name="mobile"><br>
+        <label for="email"><strong>Your Email:</strong></label><br>
+        <input type="text" id="email" name="email"><br>
+        <label for="age"><strong> Age:</strong></label><br>
+        <input type="number" id="age" name="age"><br>
+        <label for="gender"><strong>Choose your gender:</strong></label>
+        <br>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label><br>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="other" name="gender" value="Other">
+        <label for="other">Other</label>
+        <p><strong>Focus on:</strong></p><input list="focus">
+        <datalist id="focus">
+        <option value="Muscle Gain"></option>
+        <option value="Cardio"></option>
+        <option value="Weight Training"></option>
+        <option value="Muscle Gain and Cardio"></option>
+        <option value="Cardio and Weight Training"></option>
+        <option value="Weight Training and Muscle Gain"></option>
+        <option value="Yoga"></option>
+        <option value="Zumba"></option>
+        <option value="All"></option>
+        </datalist><br><br></p>
+        <p>
+        <label for="package"><strong>Choose a package:</strong></label><br>
+        <select name="package" id="package"><br>
+        <option value="Monthly">Monthly</option>
+        <option value="3 months">3 months</option>
+        <option value="6 months">6 months</option>
+        <option value="1 year">1 year</option>
+        </select><br><br>
+        <label for="requests"><strong>Additional Requests:</strong></label><br>
+        <input type="text" id="requests" name="requests"><br><br><br>
+        <input type="submit" value="Submit">
+        </center>
+        </p>
+        </fieldset>
+      </form>
+    </body>
+</html>

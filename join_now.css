@@ -1,0 +1,17 @@
+
+    
+     h1{
+        color:rgb(206, 246, 9);
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 100%;
+     }
+
+    body {
+        background-image: url("register_bg.png");
+        background-size: cover;
+    }
+    p{
+        color:rgb(206, 246, 9);
+    }
+        
+    
