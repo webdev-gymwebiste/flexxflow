@@ -2,6 +2,7 @@ body{
     background-image: url("gym_bg2.png");
     font-family: 'Truculenta';
     font-size: 22px;
+    margin: 0;
     }
     #gfg {
         color:rgb(206,246,9);
@@ -9,23 +10,29 @@ body{
         font-family: 'Truculenta';
     }
     
-    p {
-        color:darkgrey;
-        font-family:serif;
-        font-size:medium;
+    p{
+        color:rgb(206,246,9);
+        font-size: medium;
     }
     
     img{
         border-radius: 50%;
     
     }
-    button{
+    .button {
         border: none;
-        overflow: hidden;
-        border-radius: 50%;
-    }
-    
-    
+        outline: 0;
+        display: inline-block;
+        padding: 8px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+      }
+    .button:hover {
+        background-color: #555;
+      }
     .left{
         display:inline-block;
         position: absolute;
@@ -67,3 +74,66 @@ body{
     text-decoration: underline;
     
     }
+     h1{
+        color:rgb(206,246,9);
+      }
+      
+      html {
+        box-sizing: border-box;
+      }
+      
+      *, *:before, *:after {
+        box-sizing: inherit;
+      }
+      
+      .column {
+        float: left;
+        width: 20%;
+        margin-bottom: 16px;
+        padding: 0 8px;
+      }
+      
+      .card {
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+        margin: 6px;
+      }
+      
+      .about-section {
+        padding: 50px;
+        text-align: center;
+        color: white;
+      }
+      
+      .container {
+        padding: 0 10x;
+      }
+      
+      .container::after, .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .title {
+        color:rgb(206,246,9);
+      }
+      @media screen and (max-width: 650px) {
+        .column {
+          width: 100%;
+          display: block;
+        }
+      }
+      h2{
+        font-size:large;
+        color:rgb(206,246,9);
+        
+      }
+      p1{
+        font-size: small;
+        color:rgb(206,246,9);
+      }
+      fieldset{
+        background-color: white;
+        background-image: url("about_bg.jpeg");
+        background-size: cover;
+      }

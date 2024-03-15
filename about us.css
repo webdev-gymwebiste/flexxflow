@@ -19,25 +19,24 @@ body {
   
   .column {
     float: left;
-    width: 33.3%;
+    width: 20%;
     margin-bottom: 16px;
     padding: 0 8px;
   }
   
   .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    margin: 8px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    margin: 6px;
   }
   
   .about-section {
     padding: 50px;
     text-align: center;
-    background-color: #474e5d;
     color: white;
   }
   
   .container {
-    padding: 0 16px;
+    padding: 0 10x;
   }
   
   .container::after, .row::after {
