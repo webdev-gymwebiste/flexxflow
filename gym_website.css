@@ -137,4 +137,5 @@ body{
         background-color: white;
         background-image: url("about_bg.jpeg");
         background-size: cover;
+        border: none;
       }
