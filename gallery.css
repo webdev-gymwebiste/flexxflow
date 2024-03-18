@@ -10,9 +10,7 @@ div.gallery {
     border:none;
   }
   
-  div.gallery:hover {
-    border: 1px solid #777;
-  }
+ 
   
   div.gallery img {
     width: 100%;
