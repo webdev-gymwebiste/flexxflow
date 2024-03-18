@@ -1,5 +1,6 @@
 body{
     background-image: url("gym_bg2.png");
+    background-repeat: stretch;
     font-family: 'Truculenta';
     font-size: 22px;
     margin: 0;
@@ -145,8 +146,7 @@ body{
         flex-direction: column;
        column-gap: 2em;
         flex-wrap: wrap;
-        background-color: DodgerBlue;
-        align-items: center;
+       align-items: center;
         justify-content: center;
       }
       
